@@ -1,0 +1,814 @@
+{
+ "microsoft-azure": {
+  "blocks": [
+   {
+    "h": "Microsoft Azure",
+    "p": [
+     "Run, protect and scale your business applications on Microsoft Azure — designed, migrated and managed by our team, with security and cost control built in from day one."
+    ],
+    "li": []
+   },
+   {
+    "h": "Compute & virtual desktops",
+    "p": [
+     "Right-sized Azure Virtual Machines for your applications, and Azure Virtual Desktop to give hybrid and remote teams a secure Windows desktop from anywhere."
+    ],
+    "li": []
+   },
+   {
+    "h": "Storage, backup & DR",
+    "p": [],
+    "li": [
+     "Azure Blob and Azure Files storage with automatic lifecycle tiering",
+     "Managed Disks for virtual machine workloads",
+     "Azure Backup for servers, VMs, files and databases",
+     "Azure Site Recovery for disaster recovery to the cloud"
+    ]
+   },
+   {
+    "h": "Identity & security",
+    "p": [],
+    "li": [
+     "Microsoft Entra ID with multi-factor authentication and Conditional Access",
+     "Microsoft Defender for Cloud for posture management and threat protection",
+     "Azure Firewall, network security groups and private endpoints"
+    ]
+   },
+   {
+    "h": "Governance & cost control",
+    "p": [],
+    "li": [
+     "Landing zone design with Azure Policy and role-based access",
+     "Azure Arc to manage on-premise and multi-cloud servers from Azure",
+     "FinOps reviews, reservations and savings plans to keep the monthly bill in check"
+    ]
+   }
+  ]
+ },
+ "aws": {
+  "blocks": [
+   {
+    "h": "Amazon Web Services (AWS)",
+    "p": [
+     "AWS is the world’s most widely used cloud platform. We help you design, migrate and run secure, reliable and cost-efficient workloads on AWS."
+    ],
+    "li": []
+   },
+   {
+    "h": "Compute",
+    "p": [],
+    "li": [
+     "Amazon EC2 with Auto Scaling — capacity that follows demand",
+     "Graviton-based instances for better price-performance",
+     "Containers with Amazon ECS / EKS and serverless with AWS Lambda"
+    ]
+   },
+   {
+    "h": "Storage",
+    "p": [],
+    "li": [
+     "Amazon S3 with Intelligent-Tiering to cut storage cost automatically",
+     "S3 Object Lock for immutable, ransomware-safe copies",
+     "Amazon EBS and EFS for application and file workloads"
+    ]
+   },
+   {
+    "h": "Backup & resilience",
+    "p": [],
+    "li": [
+     "AWS Backup — central, policy-based backup across EC2, RDS, EBS, EFS and DynamoDB",
+     "AWS Elastic Disaster Recovery for fast failover of on-premise or cloud servers"
+    ]
+   },
+   {
+    "h": "Security & cost governance",
+    "p": [],
+    "li": [
+     "AWS Control Tower multi-account setup with IAM Identity Center",
+     "Amazon GuardDuty and Security Hub for continuous threat detection",
+     "Savings Plans, rightsizing and cost reports to optimise spend"
+    ]
+   }
+  ]
+ },
+ "microsoft-365": {
+  "blocks": [
+   {
+    "h": "Microsoft 365",
+    "p": [
+     "Microsoft 365 brings Word, Excel, PowerPoint, Outlook and Teams together with cloud storage, device management and advanced security — and now AI assistance with Microsoft 365 Copilot. We license, migrate, secure and manage it for you."
+    ],
+    "li": []
+   },
+   {
+    "h": "Communication & collaboration",
+    "p": [],
+    "li": [
+     "Exchange Online — professional email and calendaring",
+     "Microsoft Teams — chat, meetings, calling and Teams Rooms",
+     "SharePoint — intranet, document management and team sites",
+     "OneDrive — 1 TB of cloud storage per user, synced across devices"
+    ]
+   },
+   {
+    "h": "AI productivity with Copilot",
+    "p": [
+     "Microsoft 365 Copilot helps users draft documents, summarise meetings and emails, and analyse data in Excel — working inside your tenant with your existing permissions and security."
+    ],
+    "li": []
+   },
+   {
+    "h": "Security & compliance",
+    "p": [],
+    "li": [
+     "Microsoft Defender for Office 365 against phishing and malware",
+     "Microsoft Entra ID with MFA and Conditional Access",
+     "Microsoft Intune to manage and secure devices",
+     "Microsoft Purview for data loss prevention, sensitivity labels and retention"
+    ]
+   },
+   {
+    "h": "Licensing & migration",
+    "p": [],
+    "li": [
+     "Choosing the right plan — Business Basic, Standard, Premium or Enterprise E3 / E5",
+     "Migration from on-premise Exchange, Google Workspace or other mail systems",
+     "Tenant setup, hardening and ongoing administration"
+    ]
+   }
+  ]
+ },
+ "google-cloud": {
+  "blocks": [
+   {
+    "h": "Google Workspace & Google Cloud",
+    "p": [
+     "Google Workspace (formerly G Suite) is the cloud productivity suite trusted by millions of businesses, and Google Cloud gives you a secure platform for applications and data analytics. We help you adopt, migrate and manage both."
+    ],
+    "li": []
+   },
+   {
+    "h": "Google Workspace",
+    "p": [],
+    "li": [
+     "Gmail, Calendar, Meet and Chat for professional communication",
+     "Docs, Sheets and Slides with real-time co-editing",
+     "Shared Drives for secure file storage and sharing",
+     "Gemini AI built in to help write, summarise and organise"
+    ]
+   },
+   {
+    "h": "Google Cloud Platform",
+    "p": [],
+    "li": [
+     "Compute Engine and Google Kubernetes Engine for applications",
+     "Cloud Storage for scalable, durable data storage",
+     "BigQuery for fast analytics on large data sets"
+    ]
+   },
+   {
+    "h": "Security & control",
+    "p": [],
+    "li": [
+     "2-step verification and single sign-on",
+     "Endpoint management for company and personal devices",
+     "Google Vault for retention and eDiscovery",
+     "Data loss prevention rules for Gmail and Drive"
+    ]
+   },
+   {
+    "h": "Migration & support",
+    "p": [
+     "We migrate your email, calendars and files with minimal disruption, handle licensing, and provide ongoing admin and user support."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "hybrid-cloud": {
+  "blocks": [
+   {
+    "h": "Hybrid Cloud",
+    "p": [
+     "Most businesses now run a mix of on-premise systems and public cloud. Hybrid cloud connects them into one secure, centrally managed environment — so every workload runs where it performs best and costs least."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we deliver",
+    "p": [],
+    "li": [
+     "Workload placement strategy — what stays on-premise and what moves to the cloud",
+     "Secure site-to-cloud connectivity with VPN, ExpressRoute or Direct Connect",
+     "One identity and security policy across on-premise and cloud",
+     "Central management with Azure Arc and cloud-native tools",
+     "Cloud backup and disaster recovery for on-premise servers"
+    ]
+   },
+   {
+    "h": "Why hybrid",
+    "p": [],
+    "li": [
+     "Keep sensitive or latency-critical systems close to users",
+     "Use the cloud for burst capacity, backup and new applications",
+     "Get full value from existing hardware while modernising step by step"
+    ]
+   }
+  ]
+ },
+ "cloud-migration": {
+  "blocks": [
+   {
+    "h": "Cloud Migration",
+    "p": [
+     "We move your servers, applications, databases, email and files to Microsoft Azure, AWS or Google Cloud in planned, low-risk phases — with a rollback plan at every step."
+    ],
+    "li": []
+   },
+   {
+    "h": "Our approach",
+    "p": [],
+    "li": [
+     "Assess — discover your environment, dependencies and cloud readiness",
+     "Plan — choose rehost, replatform or modernise for each workload, and agree downtime windows",
+     "Migrate — move workloads wave by wave with data integrity checks",
+     "Optimise — right-size, secure and reduce cost after go-live"
+    ]
+   },
+   {
+    "h": "After migration",
+    "p": [
+     "Ongoing monitoring, backup, security and cost reviews — so the move to the cloud keeps paying off."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "endpoint-security": {
+  "blocks": [
+   {
+    "h": "End Point Solutions",
+    "p": [
+     "Endpoints — laptops, desktops, servers and mobiles — remain the primary target for ransomware and cyber attacks. Traditional antivirus is no longer enough: modern endpoint protection combines next-generation antivirus, EDR / XDR and round-the-clock monitoring on a single, well-managed platform."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we deliver",
+    "p": [],
+    "li": [
+     "Next-generation antivirus with behavioural and AI-based detection",
+     "Endpoint Detection & Response (EDR) with ransomware rollback",
+     "Extended Detection & Response (XDR) across endpoints, email, identity and network",
+     "Managed Detection & Response (MDR) — 24×7 threat monitoring and response",
+     "Patch and vulnerability management for operating systems and applications",
+     "Device control, application control and disk encryption"
+    ]
+   },
+   {
+    "h": "Platforms we work with",
+    "p": [
+     "Microsoft Defender for Endpoint, Sophos Intercept X, Trend Micro Vision One and eScan — chosen to fit your environment and budget. Contact us for a demo."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "email-security": {
+  "blocks": [
+   {
+    "h": "Email Security",
+    "p": [
+     "More than 90% of cyber attacks still start with an email — and today’s phishing uses AI-written messages, QR codes and business email compromise to get past basic filters. Protecting your mailboxes needs more than signature-based scanning."
+    ],
+    "li": []
+   },
+   {
+    "h": "Advanced threat protection",
+    "p": [],
+    "li": [
+     "AI-based detection of phishing, impersonation and business email compromise",
+     "Link rewriting and time-of-click URL checks, including QR codes",
+     "Attachment sandboxing to catch zero-day malware"
+    ]
+   },
+   {
+    "h": "Email authentication",
+    "p": [
+     "SPF, DKIM and DMARC set up and enforced — protecting your domain from spoofing and keeping your mail out of spam, as major mailbox providers now require."
+    ],
+    "li": []
+   },
+   {
+    "h": "Compliance & data protection",
+    "p": [],
+    "li": [
+     "Content filtering and data leak prevention for outgoing mail",
+     "Email encryption for sensitive messages",
+     "Archiving and retention policies"
+    ]
+   },
+   {
+    "h": "Quarantine & awareness",
+    "p": [],
+    "li": [
+     "Self-service quarantine with daily digests for users",
+     "Phishing simulation and security awareness training"
+    ]
+   }
+  ]
+ },
+ "ssl-vpn": {
+  "blocks": [
+   {
+    "h": "SSL VPN & Zero Trust Access",
+    "p": [
+     "An SSL VPN uses SSL / TLS encryption to give remote users secure access to company resources over the internet. Today many organisations are moving to Zero Trust Network Access (ZTNA), which verifies every user and device and gives access only to the specific applications they need."
+    ],
+    "li": []
+   },
+   {
+    "h": "Secure remote access",
+    "p": [],
+    "li": [
+     "SSL / TLS VPN with multi-factor authentication for staff, contractors and partners",
+     "Always-on, client-based or browser-based access",
+     "Firmware kept patched — VPN appliances are a frequent attack target"
+    ]
+   },
+   {
+    "h": "Zero Trust Network Access (ZTNA)",
+    "p": [],
+    "li": [
+     "Per-application access instead of opening the whole network",
+     "Access decisions based on identity, device health and location",
+     "No exposed VPN gateway for attackers to scan"
+    ]
+   },
+   {
+    "h": "SASE",
+    "p": [
+     "Secure Access Service Edge combines ZTNA, secure web gateway, cloud app security and SD-WAN in one cloud-delivered service — consistent protection for users in the office, at home or on the move."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "data-loss-prevention": {
+  "blocks": [
+   {
+    "h": "Data Loss Prevention",
+    "p": [
+     "Data Loss Prevention (DLP) detects and stops sensitive data from leaving your organisation — through email, USB drives, cloud apps and now generative AI tools. It is also a key control for complying with India’s Digital Personal Data Protection (DPDP) Act, 2023."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we protect",
+    "p": [],
+    "li": [
+     "Intellectual property — source code, designs, process documents and price lists",
+     "Corporate data — financials, strategy documents and employee records",
+     "Personal data — Aadhaar, PAN, card numbers, health and customer records"
+    ]
+   },
+   {
+    "h": "Where we protect it",
+    "p": [],
+    "li": [
+     "Endpoints — USB, printing, clipboard and uploads",
+     "Email and Microsoft 365 / Google Workspace",
+     "Cloud and SaaS applications",
+     "Generative AI tools such as ChatGPT and Copilot"
+    ]
+   },
+   {
+    "h": "How it works",
+    "p": [],
+    "li": [
+     "Data discovery and classification with sensitivity labels",
+     "Real-time blocking, encryption, quarantine and user alerts",
+     "Insider-risk monitoring and incident response workflows",
+     "Policies tuned to balance security with productivity"
+    ]
+   }
+  ]
+ },
+ "mobile-device-management": {
+  "blocks": [
+   {
+    "h": "Mobile Device Management",
+    "p": [
+     "Mobile device management has grown into Unified Endpoint Management (UEM) — one console to secure and manage phones, tablets and laptops across Android, iOS, Windows and macOS, whether company-owned or personal (BYOD)."
+    ],
+    "li": []
+   },
+   {
+    "h": "Microsoft Intune",
+    "p": [],
+    "li": [
+     "Enrol company and personal devices with compliance policies",
+     "App protection for BYOD — company data stays protected without managing the whole phone",
+     "Windows Autopilot for zero-touch laptop deployment",
+     "Conditional Access with Microsoft Entra ID — only healthy devices get in"
+    ]
+   },
+   {
+    "h": "Android & Apple management",
+    "p": [],
+    "li": [
+     "Android Enterprise work profiles and zero-touch enrolment",
+     "Apple Business Manager automated enrolment for iPhone, iPad and Mac"
+    ]
+   },
+   {
+    "h": "Security & control",
+    "p": [],
+    "li": [
+     "Remote lock and wipe for lost or stolen devices",
+     "Encryption, passcode and OS-update enforcement",
+     "App deployment and inventory reporting"
+    ]
+   },
+   {
+    "h": "Other platforms",
+    "p": [
+     "Citrix Endpoint Management and ManageEngine Endpoint Central, where they fit your environment better."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "web-proxy-filtering": {
+  "blocks": [
+   {
+    "h": "Proxy and Content Filters",
+    "p": [
+     "A proxy server sits between your users and the internet to control and secure web access. Today this is delivered as a Secure Web Gateway (SWG) — on-premise or in the cloud — so users are protected in the office and when working remotely."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we deliver",
+    "p": [],
+    "li": [
+     "Category-based web filtering and safe search",
+     "SSL / TLS inspection to find threats hidden in encrypted traffic",
+     "Malware, phishing and malicious-site protection",
+     "Cloud app control to manage shadow IT and risky SaaS",
+     "Bandwidth control and application prioritisation",
+     "User-level reporting for HR and compliance"
+    ]
+   },
+   {
+    "h": "Benefits",
+    "p": [],
+    "li": [
+     "Control and visibility of internet usage",
+     "Improved security and privacy",
+     "Better bandwidth and productivity",
+     "Reduced legal and liability risk"
+    ]
+   }
+  ]
+ },
+ "servers": {
+  "blocks": [
+   {
+    "h": "Server",
+    "p": [
+     "Servers are the backbone of your IT infrastructure, and their reliability drives daily business operations. With our technology partners we size, supply, deploy and support the right servers for your workloads — powerful, energy-efficient and cost-effective."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we deliver",
+    "p": [],
+    "li": [
+     "Rack, tower and blade servers with the latest Intel Xeon and AMD EPYC processors",
+     "NVMe storage, high-speed networking and built-in hardware security",
+     "GPU servers for AI and analytics workloads",
+     "Installation, configuration and migration from old servers",
+     "Warranty, AMC and lifecycle management"
+    ]
+   },
+   {
+    "h": "Why modernise now",
+    "p": [
+     "Servers older than 5 years cost more in power, cooling, support and security risk. A planned refresh consolidates workloads onto fewer, faster servers and supports modern virtualization and AI applications."
+    ],
+    "li": []
+   },
+   {
+    "h": "Brands",
+    "p": [
+     "Dell PowerEdge, HPE ProLiant and Lenovo ThinkSystem."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "san-storage": {
+  "blocks": [
+   {
+    "h": "SAN",
+    "p": [
+     "Business data keeps growing year after year, and applications expect it to be fast and always available. A Storage Area Network (SAN) delivers high-performance block storage for databases, ERP and virtualization."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we deliver",
+    "p": [],
+    "li": [
+     "All-flash and NVMe storage arrays",
+     "Fibre Channel, iSCSI and NVMe over Fabrics connectivity",
+     "Snapshots, replication and high availability",
+     "Immutable snapshots for ransomware protection",
+     "Data reduction — deduplication and compression"
+    ]
+   },
+   {
+    "h": "Brands",
+    "p": [
+     "Dell PowerStore, NetApp, HPE Alletra and IBM FlashSystem."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "nas-storage": {
+  "blocks": [
+   {
+    "h": "NAS",
+    "p": [
+     "Network-attached storage (NAS) is a dedicated file storage system on your network — the simplest way to give teams shared, secure and centrally managed file access."
+    ],
+    "li": []
+   },
+   {
+    "h": "What NAS gives you",
+    "p": [],
+    "li": [
+     "Shared file access over SMB and NFS for Windows, Mac and Linux",
+     "Centralised storage with simple management",
+     "Snapshots and replication for quick recovery",
+     "Immutable snapshots to protect files from ransomware",
+     "Cloud sync and tiering to keep older data off expensive disks",
+     "User authentication and access control"
+    ]
+   },
+   {
+    "h": "Brands",
+    "p": [
+     "Synology, QNAP, NetApp and Dell PowerScale."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "veeam-backup": {
+  "blocks": [
+   {
+    "h": "Modern Data Protection & Cyber Resilience",
+    "p": [
+     "Ransomware attacks now target backups first. Modern data protection means immutable, regularly tested backups across your servers, cloud and SaaS applications — so you can always recover."
+    ],
+    "li": []
+   },
+   {
+    "h": "The 3-2-1-1-0 rule",
+    "p": [],
+    "li": [
+     "3 copies of your data",
+     "2 different storage types",
+     "1 copy offsite",
+     "1 copy immutable or offline",
+     "0 errors — verified by automated restore testing"
+    ]
+   },
+   {
+    "h": "Platforms we work with",
+    "p": [],
+    "li": [
+     "Veeam Data Platform",
+     "Commvault Cloud",
+     "Veritas NetBackup (now part of Cohesity)",
+     "Acronis Cyber Protect",
+     "Arcserve"
+    ]
+   },
+   {
+    "h": "What we protect",
+    "p": [],
+    "li": [
+     "Physical and virtual servers — VMware, Hyper-V, Proxmox and Nutanix",
+     "Microsoft 365 and Google Workspace data",
+     "Databases and applications",
+     "Cloud workloads on Azure and AWS"
+    ]
+   }
+  ]
+ },
+ "disaster-recovery-draas": {
+  "blocks": [
+   {
+    "h": "Disaster Recovery",
+    "p": [
+     "Disaster recovery keeps your business running when systems fail — from hardware failure and power outages to ransomware. We design on-premise, cloud and hybrid DR with defined recovery objectives, so critical applications come back quickly."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we deliver",
+    "p": [],
+    "li": [
+     "Replication of servers and data to a secondary site or the cloud",
+     "Defined RPO and RTO for every critical application",
+     "Disaster Recovery as a Service (DRaaS) on Azure or AWS",
+     "Documented runbooks with automated failover and failback",
+     "Clean-room recovery from immutable copies after a ransomware attack",
+     "Regular DR drills and test reports"
+    ]
+   }
+  ]
+ },
+ "structured-cabling": {
+  "blocks": [
+   {
+    "h": "Wired",
+    "p": [
+     "A fast, secure and reliable wired network is the foundation for everything else — from Wi-Fi and phones to CCTV and cloud applications. We design and deploy campus and branch networks built for today’s speeds and security needs."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we deliver",
+    "p": [],
+    "li": [
+     "Multi-gigabit and PoE+ access switching for Wi-Fi, phones and cameras",
+     "10 / 25 / 100G core and data center switching",
+     "Routing and SD-WAN for branch connectivity",
+     "Network Access Control (802.1X) so only trusted devices connect",
+     "Structured cabling with Cat6A copper and fibre backbone",
+     "Cloud-managed networking with central monitoring"
+    ]
+   },
+   {
+    "h": "Our offering",
+    "p": [
+     "Routers and switches from Cisco, HPE Aruba, Dell, Netgear and Ruckus."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "enterprise-wifi": {
+  "blocks": [
+   {
+    "h": "Wireless",
+    "p": [
+     "Users and devices expect fast, seamless Wi-Fi everywhere. We design enterprise wireless from a proper site survey, using the latest Wi-Fi 6E and Wi-Fi 7 technology for higher speeds, more capacity and lower latency."
+    ],
+    "li": []
+   },
+   {
+    "h": "What we deliver",
+    "p": [],
+    "li": [
+     "Predictive and on-site surveys for coverage and capacity",
+     "Wi-Fi 6E / Wi-Fi 7 access points for offices, campuses and warehouses",
+     "Separate staff, guest and IoT networks with WPA3 security",
+     "Cloud-managed Wi-Fi with monitoring and reporting",
+     "Seamless roaming across floors and buildings"
+    ]
+   },
+   {
+    "h": "Brands",
+    "p": [
+     "Cisco, HPE Aruba, Juniper Mist, Ruckus and Netgear."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "svc:infrastructure-services": {
+  "blocks": [
+   {
+    "h": "Infrastructure Services",
+    "p": [
+     "Helping you manage your IT infrastructure effectively. Our managed infrastructure services keep your systems secure, up to date and aligned with your business — so your team can focus on growth instead of day-to-day IT operations."
+    ],
+    "li": []
+   },
+   {
+    "h": "Our portfolio of services",
+    "p": [],
+    "li": [
+     "Field support and onsite engineers",
+     "Application management services",
+     "Legacy platform modernisation",
+     "Desktop and application virtualization",
+     "Endpoint and mobility management",
+     "Identity and directory services — Active Directory and Microsoft Entra ID",
+     "Messaging and collaboration — Microsoft 365 and Google Workspace"
+    ]
+   },
+   {
+    "h": "Service Desk",
+    "p": [
+     "A single point of contact for every IT issue, with SLA-backed response, ITIL-based processes, full ticket visibility and transparent costs."
+    ],
+    "li": []
+   }
+  ]
+ },
+ "svc:data-center-services": {
+  "blocks": [
+   {
+    "h": "Data Center Services",
+    "p": [
+     "Our data center experts keep your servers, storage and virtualization running at their best — closing operational gaps, automating routine tasks and preventing unplanned downtime."
+    ],
+    "li": []
+   },
+   {
+    "h": "Our services include",
+    "p": [],
+    "li": [
+     "24×7 monitoring of servers, storage and virtualization platforms",
+     "Proactive issue detection and incident response",
+     "Data center consolidation and optimisation",
+     "Virtualization platform migration — including moves away from VMware to Hyper-V, Proxmox or Nutanix",
+     "Data center security and compliance",
+     "Workload migration to and from the cloud",
+     "Data center relocation and migration"
+    ]
+   }
+  ]
+ },
+ "svc:network-services": {
+  "blocks": [
+   {
+    "h": "Network Services",
+    "p": [
+     "We take care of your network end to end — design, deployment, monitoring and security — relieving you of the day-to-day work of running your data networks."
+    ],
+    "li": []
+   },
+   {
+    "h": "Our services include",
+    "p": [],
+    "li": [
+     "Network monitoring and optimisation",
+     "Campus LAN and Wi-Fi services",
+     "SD-WAN for multi-branch connectivity",
+     "Network security — firewalls, NAC and segmentation",
+     "Unified communication and collaboration",
+     "Security assessment and audits",
+     "Failover design for internet links and remote access"
+    ]
+   }
+  ]
+ },
+ "svc:cloud-services": {
+  "blocks": [
+   {
+    "h": "Cloud Services",
+    "p": [
+     "We help organisations adopt and run the cloud with confidence — becoming more agile, more secure and getting the best return on their investment."
+    ],
+    "li": []
+   },
+   {
+    "h": "Our approach",
+    "p": [],
+    "li": [
+     "Assessment",
+     "Planning",
+     "Deployment",
+     "Optimisation"
+    ]
+   },
+   {
+    "h": "Our portfolio of cloud services",
+    "p": [],
+    "li": [
+     "Cloud strategy and consulting",
+     "Migration services",
+     "Managed cloud and monitoring",
+     "Cloud security and compliance",
+     "Backup and disaster recovery in the cloud",
+     "Cost optimisation (FinOps)"
+    ]
+   },
+   {
+    "h": "Partnerships",
+    "p": [
+     "Microsoft Azure, Amazon Web Services and Google Cloud."
+    ],
+    "li": []
+   }
+  ]
+ }
+}

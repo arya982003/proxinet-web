@@ -1,0 +1,104 @@
+import React from 'react';
+import { Link, useParams, Navigate } from 'react-router-dom';
+import { ArrowRightOutlined, SafetyCertificateOutlined } from '@ant-design/icons';
+import { industries, findIndustry } from '../data/industries';
+import { solutionFamilies, findFamily } from '../data/solutions';
+import { Reveal, Stagger, StaggerItem, SectionHead } from '../components/ui';
+import { PageHero, CTABand, InfoCard, dotList, SplitFeature } from '../components/blocks';
+import { industryImg, familyImg } from '../data/images';
+
+export function IndustriesHub() {
+  return (
+    <>
+      <PageHero
+        eyebrow="Industries"
+        title="IT built for your industry"
+        sub="Uptime and compliance needs differ — so does our approach."
+        crumbs={[{ label: 'Industries' }]}
+      />
+      <section className="px-container px-section">
+        <Stagger className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {industries.map((i) => (
+            <StaggerItem key={i.slug}>
+              <InfoCard
+                to={`/industries/${i.slug}`} image={industryImg(i.slug, 800)} as="h2"
+                title={i.name} meta={dotList(i.compliance.slice(0, 2))} text={i.blurb} cta="View industry"
+              />
+            </StaggerItem>
+          ))}
+        </Stagger>
+      </section>
+      <CTABand />
+    </>
+  );
+}
+
+export function IndustryDetail() {
+  const { slug } = useParams();
+  const ind = findIndustry(slug);
+  if (!ind) return <Navigate to="/industries" replace />;
+
+  const fits = ind.fits.map(findFamily).filter(Boolean);
+
+  return (
+    <>
+      <PageHero
+        eyebrow="Industry" title={`IT infrastructure for ${ind.name}`} sub={ind.blurb}
+        crumbs={[{ label: 'Industries', to: '/industries' }, { label: ind.name }]}
+      />
+
+      {/* challenges */}
+      <section className="px-container px-section">
+        <SplitFeature
+          image={industryImg(ind.slug, 800)} alt={ind.name}
+          eyebrow="Reality check" title={`Key IT challenges in ${ind.name}`}
+          intro="What we see most often — and what we fix first."
+          points={ind.challenges}
+        />
+      </section>
+
+      {/* compliance */}
+      <section className="border-y border-slate-200 bg-slate-50 dark:border-white/10 dark:bg-ink-800">
+        <div className="px-container px-section">
+          <div className="grid gap-10 lg:grid-cols-2">
+            <Reveal>
+              <SectionHead eyebrow="Compliance" title="Which frameworks apply" />
+              <ul className="mt-6 space-y-3">
+                {ind.compliance.map((c) => (
+                  <li key={c} className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 dark:border-white/10 dark:bg-white/[0.03]">
+                    <SafetyCertificateOutlined className="text-lg text-brand-500" />
+                    <span className="font-medium text-slate-800 dark:text-slate-100">{c}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="px-body mt-5">
+                We translate these requirements into infrastructure controls — access policies, logging,
+                retention and documented evidence — so the paperwork is ready when the audit arrives.
+              </p>
+            </Reveal>
+
+            <Reveal delay={0.1}>
+              <SectionHead eyebrow="Best fit" title="Recommended solutions" />
+              <div className="mt-6 space-y-3">
+                {fits.map((f) => (
+                  <Link key={f.slug} to={`/solutions/${f.slug}`} className="group block">
+                    <div className="px-card px-card-hover flex items-center justify-between gap-4 !p-4">
+                      <img src={familyImg(f.slug, 300)} alt="" aria-hidden="true" loading="lazy" className="h-16 w-20 shrink-0 rounded-xl object-cover" />
+                      <div className="min-w-0 flex-1">
+                        <h3 className="font-display text-[16px] font-semibold text-slate-900 group-hover:text-brand-600 dark:text-white">{f.name}</h3>
+                        <p className="px-body mt-1 line-clamp-2">{f.blurb}</p>
+                      </div>
+                      <ArrowRightOutlined className="shrink-0 text-slate-400 transition-transform group-hover:translate-x-1" />
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      <CTABand />
+    </>
+  );
+}
